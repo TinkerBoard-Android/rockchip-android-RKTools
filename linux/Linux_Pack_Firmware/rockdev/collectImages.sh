@@ -14,7 +14,7 @@ fi
 
 mkdir Image
 
-cp ../../../../u-boot/rk3288_loader_v1.05.233.bin ./Image/MiniLoaderAll.bin
+cp ../../../../u-boot/rk3288_loader_*.bin ./Image/MiniLoaderAll.bin
 
 cp ../../../../u-boot/trust.img ./Image/trust.img
 
