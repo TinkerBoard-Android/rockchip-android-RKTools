@@ -19,7 +19,7 @@ mv package-file package-file.bak
 cp package-file-Tinker_Board_2 package-file
 
 ./afptool -pack ./ Image/update.img || pause
-./rkImageMaker -RK330C Image/MiniLoaderAll.bin Image/update.img update.img -os_type:androidos || pause
+./rkImageMaker -RK32 Image/MiniLoaderAll.bin Image/update.img update.img -os_type:androidos || pause
 
 rm package-file
 mv package-file.bak package-file
