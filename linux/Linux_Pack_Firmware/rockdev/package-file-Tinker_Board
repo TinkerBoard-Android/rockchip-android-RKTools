@@ -10,6 +10,7 @@ misc        Image/misc.img
 boot        Image/boot.img
 dtbo        Image/dtbo.img
 splash      Image/splash.img
+dtoverlay   Image/dtoverlay.img
 vbmeta      Image/vbmeta.img
 recovery    Image/recovery.img
 baseparameter    Image/baseparameter.img
