@@ -7,6 +7,8 @@ parameter	Image/parameter.txt
 uboot	Image/uboot.img
 misc	Image/misc.img
 dtbo	Image/dtbo.img
+splash      Image/splash.img
+dtoverlay   Image/dtoverlay.img
 vbmeta	Image/vbmeta.img
 boot	Image/boot.img
 recovery	Image/recovery.img
