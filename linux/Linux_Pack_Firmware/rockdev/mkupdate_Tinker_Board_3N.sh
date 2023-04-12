@@ -12,18 +12,18 @@ if [ ! -f "$IMAGE_PATH/parameter.txt" ]; then
 fi
 
 
-echo "Tinker Board 3 start to make update.img..."
+echo "Tinker Board 3N start to make update.img..."
 
 if [ ! -f "Image/parameter.txt" ]; then
         echo "Error:No found parameter!"
 #       pause
 fi
-if [ ! -f "package-file-Tinker_Board_3" ]; then
-        echo "Error:No found package-file-Tinker_Board_3!"
+if [ ! -f "package-file-Tinker_Board_3N" ]; then
+        echo "Error:No found package-file-Tinker_Board_3N!"
 #       pause
 fi
 
-./afptool -pack ./ Image/update.img ./package-file-Tinker_Board_3 || pause
+./afptool -pack ./ Image/update.img ./package-file-Tinker_Board_3N || pause
 ./rkImageMaker -RK3568 Image/MiniLoaderAll.bin Image/update.img update.img -os_type:androidos || pause
-echo "Making Tinker Board 3 update.img OK."
+echo "Making Tinker Board 3N update.img OK."
 exit 0
